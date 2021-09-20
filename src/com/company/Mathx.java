@@ -5,6 +5,12 @@ public class Mathx {
 
 {
     // returns the number with the last 2 digits swapped
+    int ones=input % 10;
+    int tens=input /10 %10;
+    int hundreds=input /100;
+    System.out.println(ones);
+    System.out.println(tens);
+    System.out.println(hundreds);
 }
 
     public static void timeLeft(int currHour, int currMin, int depHour, int depMin)
@@ -49,4 +55,18 @@ public class Mathx {
 
 
     }
-
+}
+/*
+ *
+ * 370250 370205
+6 60
+381 318
+0
+6
+6
+1
+3
+2
+6 Hours and 46 minutes.
+3 Hours and 21 minutes.
+*/
