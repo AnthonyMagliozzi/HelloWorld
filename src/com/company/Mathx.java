@@ -11,6 +11,7 @@ public class Mathx {
     System.out.println(ones);
     System.out.println(tens);
     System.out.println(hundreds);
+    return 0;
 }
 
     public static void timeLeft(int currHour, int currMin, int depHour, int depMin)
@@ -21,6 +22,7 @@ public class Mathx {
     {
 
         // returns an integer corresponding to the day of the week
+        return 0;
     }
 
 
